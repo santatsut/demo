@@ -8,14 +8,14 @@ import "./Home.css";
 //npm run dev for startup
 
 const images = [
-  "/src/assets/brownShirt.jpg",
-  "/src/assets/whiteShirt.jpg",
-  "/src/assets/blackCroppedShirt.jpg",
+  "./assets/brownShirt.jpg",
+  "./assets/whiteShirt.jpg",
+  "./assets/blackCroppedShirt.jpg",
   // Add more image paths here
 ];
 
 const blazers = [
-  "/src/assets/greyBlazer.jpg",
+  "./assets/greyBlazer.jpg",
   "",
   "",
   "",
@@ -216,7 +216,7 @@ function Home() {
         <div className="leftBar">
           <h2>contact</h2>
           <h2>about</h2>
-          <img src="/src/assets/person.svg" alt="Profile Icon" id="profileIcon" onClick={() => {setActiveWindow(!activeWindow )}}/>
+          <img src="./assets/person.svg" alt="Profile Icon" id="profileIcon" onClick={() => {setActiveWindow(!activeWindow )}}/>
         </div>
         <h1 className="title">SEREN</h1>
         <div id="rightBar">
@@ -245,7 +245,7 @@ function Home() {
             cart: 'hellooooo'
           }}>
             <img
-              src="/src/assets/shoppingBagIcon.svg"
+              src="./assets/shoppingBagIcon.svg"
               alt="shopping bag"
               id="bagIcon"
             />
@@ -274,8 +274,8 @@ function Home() {
       </div>
 
       <div className="topPart">
-        <img src="/src/assets/bgPic1.jpg" alt="" className="bigPicture1" />
-        <img src="/src/assets/bgPic2.jpg" alt="" className="bigPicture2" />
+        <img src="./assets/bgPic1.jpg" alt="" className="bigPicture1" />
+        <img src="./assets/bgPic2.jpg" alt="" className="bigPicture2" />
         <div className="filters">
           <h2 className="tags" onMouseEnter={() => handleMouseEnter("men")}>
             Mens
@@ -377,7 +377,7 @@ function Home() {
           to="/shop" state={{id: 1}}
         >
           <img
-            src="/src/assets/brownShirt.jpg"
+            src="./assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
@@ -386,7 +386,7 @@ function Home() {
           to="/shop" state={{id: 2}}
         >
           <img
-            src="/src/assets/whiteShirt.jpg"
+            src="./assets/whiteShirt.jpg"
             alt="white shirt"
             className="popularImg"
           />
@@ -395,56 +395,56 @@ function Home() {
           to="/shop" state={{id: 3}}
         >
           <img
-            src="/src/assets/blackCroppedShirt.jpg"
+            src="./assets/blackCroppedShirt.jpg"
             alt="black cropped shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
         </Link>
         <Link to="/shop">
           <img
-            src="./src/assets/brownShirt.jpg"
+            src="../assets/brownShirt.jpg"
             alt="brown shirt"
             className="popularImg"
           />
